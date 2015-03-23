@@ -1,0 +1,4 @@
+StartWeaponConfig(NewWeaponType,"Gimble","Missile","hw1_scout","Normal",1100,1250*1.1,0,0,0,0,1,1,0,1.2*0.8,0,0,0,0,0,0,0.1,"Normal",0,0,0);
+AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",12.1,14.3,"");
+setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
+setAngles(NewWeaponType,10,0,0,0,0);

@@ -1,0 +1,29 @@
+effects =
+{
+    animations =
+    {
+        animation1 =
+        {
+            name = "MissileTrail",				-- Don't change this or the bullet sprite won't render in-game
+            length = 1.060,							-- Change to be the lifetime of the missile, -1 and 0 cause the sprite to not render
+            loop = 0,							--
+            parent = "",						--
+            minimum = 0,						--
+            maximum = 0,						--
+            markers = {""}						-- Leave these at the default values
+        },
+    },
+    events =
+    {
+        event1 =
+        {
+            { "anim", "MissileTrail" },			--
+            { "animtime", "-1" },				--
+            { "marker", "Root" },				-- Leave these at the default values
+            { "fx", "kinetic_small_bullet" },						-- Change this to be the value of bulletfx from the respective weaponfire script
+            { "fx_scale", "1.0" },				-- Change this to make the bullet visually larger or smaller, or set to "entity" to (somewhat clumsily) autoscale it
+			{ "fx_nlips", "off" },				-- Change this to "on" to make the bullet visually scale when NLIPS is turned on in the game options
+			{ "sound", "" },					-- Specify a file relative to sound/sfx/etg (Eg. "special/alarmsmall") to make the bullet have a flyby sound effect
+        },
+    }
+}

@@ -1,0 +1,5 @@
+StartWeaponConfig(NewWeaponType,"Gimble","Missile","vgr_flechettecannon","Normal",1200,1300*1.1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0.1,"Normal",0,0,0);
+AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",30,30,"");
+setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
+setAngles(NewWeaponType,23,0,0,0,0);
+setMiscValues(NewWeaponType,0,0);

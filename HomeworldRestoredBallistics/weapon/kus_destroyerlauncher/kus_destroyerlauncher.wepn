@@ -1,0 +1,9 @@
+StartWeaponConfig(NewWeaponType,"Fixed","Missile","Kus_Missile","Normal",300,4500,0,0,0,0,1,0,1,2.35,0,0,1,0,0,0,0.1,"Normal",0,0,0);
+AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",200,200,"Vgr_SmallMissileBurst");
+AddWeaponResult(NewWeaponType,"Miss","SpawnWeaponFire","Target",0,0,"Vgr_SmallMissileBurst");
+setPenetration(NewWeaponType,30,1,{PlanetKillerArmour=0});
+setAccuracy(NewWeaponType,1,
+{Fighter=0.80},
+{Corvette=0.70},
+{munition=0});
+setAngles(NewWeaponType,120,0,0,0,0);
