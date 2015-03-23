@@ -1,7 +1,7 @@
 NewShipType = StartShipConfig()
 NewShipType.displayedName="$1602"
 NewShipType.sobDescription="$1603"
-NewShipType.maxhealth=30
+NewShipType.maxhealth=40
 NewShipType.regentime=0
 NewShipType.minRegenTime=0
 NewShipType.sideArmourDamage=1
@@ -15,7 +15,7 @@ NewShipType.passiveFormation="ScatterWide"
 NewShipType.defensiveFormation="ScatterDelta_Long"
 NewShipType.aggressiveFormation="ScatterNarrow"
 NewShipType.mass=10
-NewShipType.collisionMultiplier=35
+NewShipType.collisionMultiplier=3
 NewShipType.thrusterMaxSpeed=325*0.77
 NewShipType.mainEngineMaxSpeed=320
 NewShipType.rotationMaxSpeed=105*0.92

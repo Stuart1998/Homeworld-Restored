@@ -7,7 +7,7 @@
 NewShipType = StartShipConfig()
 NewShipType.displayedName="$10064"
 NewShipType.sobDescription="$10065"
-NewShipType.maxhealth=1500000
+NewShipType.maxhealth=1250000
 NewShipType.regentime=0
 NewShipType.minRegenTime=0
 NewShipType.sideArmourDamage=1
@@ -121,7 +121,7 @@ NewShipType.specialDeathSpeed=40
 NewShipType.chanceOfSpecialDeath=0
 NewShipType.deadSobFadeTime=0.1
 NewShipType.trailLinger=2
-NewShipType.normalCollisionDamageMultiplier = 2
+NewShipType.normalCollisionDamageMultiplier = 1
 setCollisionDamageToModifier(NewShipType, "Ship", 3)
 setCollisionDamageFromModifier(NewShipType, "Ship", 1)
 SpawnSalvageOnDeath(NewShipType,"HeadshotPebble",3, 0.45,-30,20,10, 6,9,0,0,0,0,8,125,310,110,50,60,0,0,0,30);

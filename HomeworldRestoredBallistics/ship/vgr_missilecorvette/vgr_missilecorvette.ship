@@ -5,9 +5,9 @@
 --  Copyright Relic Entertainment, Inc.  All rights reserved.
 --===========================================================================
 NewShipType = StartShipConfig()
-NewShipType.displayedName="$1610"
-NewShipType.sobDescription="$1611"
-NewShipType.maxhealth=450
+NewShipType.displayedName="$1612"
+NewShipType.sobDescription="$1613"
+NewShipType.maxhealth=500
 NewShipType.regentime=0
 NewShipType.minRegenTime=0
 NewShipType.sideArmourDamage=1
@@ -75,10 +75,10 @@ NewShipType.corvetteValue=10
 NewShipType.frigateValue=0
 NewShipType.neutralValue=0
 NewShipType.antiFighterValue=0
-NewShipType.antiCorvetteValue=0
-NewShipType.antiFrigateValue=10
+NewShipType.antiCorvetteValue=10
+NewShipType.antiFrigateValue=0
 NewShipType.totalValue=10
-NewShipType.buildCost=650
+NewShipType.buildCost=625
 NewShipType.buildTime=45
 NewShipType.buildPriorityOrder=10
 NewShipType.retaliationRange=5500
@@ -100,9 +100,9 @@ NewShipType.TOGroupMergeSize=0
 NewShipType.mouseOverMinFadeSize=0.045
 NewShipType.mouseOverMaxFadeSize=0.1
 NewShipType.healthBarStyle=0
-NewShipType.nlips=0.00025
+NewShipType.nlips=0.000125
 NewShipType.nlipsRange=6000
-NewShipType.nlipsFar=0.00015
+NewShipType.nlipsFar=0.0001
 NewShipType.nlipsFarRange=10000
 NewShipType.SMRepresentation="HardDot"
 NewShipType.meshRenderLimit=11000
@@ -132,12 +132,12 @@ NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="dockline"
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
-addAbility(NewShipType,"CanAttack",1,2,1,0,0.35,1,"Capturer, Frigate, SmallCapitalShip, BigCapitalShip, Utility, Fighter, Corvette","frontalcircle",{Fighter="frontalcircle"},{Mothership="frontalcircle"},{SmallCapitalShip="frontalcircle"},{BigCapitalShip="frontalcircle"},{SubSystem="frontalcircle"},{Corvette="frontalcircle"});
+addAbility(NewShipType,"CanAttack",1,2,1,0,0.35,1,"Corvette, Fighter, Frigate, SmallCapitalShip, BigCapitalShip, Utility","FlyBy_Corvette_vs_Corvette",{Fighter="FlyRound_Corvette_vs_Fighter"},{Mothership="flyround_Corvette_vs_Mothership"},{SmallCapitalShip="FlyRound_Corvette_vs_CapShip"},{BigCapitalShip="FlyRound_Corvette_vs_CapShip"},{SubSystem="FrontalVsSubSystem_Corvette"},{Corvette="FlyBy_Corvette_vs_Corvette"},{Frigate="FlyRound_Corvette_vs_Frigate"});
 addAbility(NewShipType,"GuardCommand",1,3000,500);
 addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
 addAbility(NewShipType,"RetireAbility",1,0);
 LoadModel(NewShipType,1);
-StartShipWeaponConfig(NewShipType,"Vgr_Laser","Weapon_Laser","Fire_L");
+StartShipWeaponConfig(NewShipType,"Vgr_ConcussionMissileLauncher","Weapon_MissileVette","Fire_Missile");
 addShield(NewShipType,"EMP",75,20);
 NewShipType.battleScarCoverage=1
 NewShipType.battleScarBudgetLow = 400
