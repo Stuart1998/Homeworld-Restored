@@ -2,7 +2,7 @@
 -- formats:
 
 hitfx = "plasma_hit_spray"
-bulletfx = "plasma_bomb_tracer"
+bulletfx = "bullet_plasma_bomb_dread_combo"
 nopenetratefx = "plasma_hit_spray"
 deathtype = "deathPlasma"
 scartype = "Plasma_Bomb/Plasma_Bomb"

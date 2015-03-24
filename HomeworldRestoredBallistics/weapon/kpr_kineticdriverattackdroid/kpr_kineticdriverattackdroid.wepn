@@ -4,8 +4,7 @@
 --
 --  Copyright Relic Entertainment, Inc.  All rights reserved.
 --===========================================================================
-StartWeaponConfig(NewWeaponType,"Gimble","Bullet","Plasma_Bomb","Normal",2500,1200,0,0,0,0,1,1,0,0.1,1.2,0.5,0,0,0,0,0.1,"Normal",0,0,0);
+StartWeaponConfig(NewWeaponType,"Gimble","Missile","kpr_kineticdriverattackdroid","Normal",2500,1200,0,0,0,0,1,1,0,0.1,1.2,0.5,0,0,0,0,0.1,"Normal",0,0,0);
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",50,50,"");
 setPenetration(NewWeaponType,25,1,{PlanetKillerArmour=0});
-setAccuracy(NewWeaponType,1,{Fighter=0.001,damage=0},{Corvette=0.5,damage=0},{BigCapitalShip=0.05,damage=1},{SmallCapitalShip=0.15,damage=1},{Frigate=0.6,damage=1},{SubSystem=0.05,damage=1});
 setAngles(NewWeaponType,15,0,0,0,0);
