@@ -251,8 +251,8 @@ research =
 	
 	{ 
 		Name =			"DestroyerGuns",
-		RequiredResearch =	"",                                               -- <list of prerequisite research items>
-		RequiredSubSystems =	"Research & CapShipProduction & FrigateAssault",                -- <list of prerequisite sub systems>
+		RequiredResearch =	"FrigateAssault",                                               -- <list of prerequisite research items>
+		RequiredSubSystems =	"Research & CapShipProduction",                -- <list of prerequisite sub systems>
 		Cost = 			2000,
 		Time = 			140,
 		DisplayedName =		"$7720",
