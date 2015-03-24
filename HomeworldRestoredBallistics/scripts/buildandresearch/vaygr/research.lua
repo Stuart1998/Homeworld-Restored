@@ -237,8 +237,8 @@ research =
 
 	{ 
 		Name =			"BattlecruiserIonWeapons",
-		RequiredResearch =	"",                                               -- <list of prerequisite research items>
-		RequiredSubSystems =	"Research & CapShipProduction & DestroyerGuns",                -- <list of prerequisite sub systems>
+		RequiredResearch =	"DestroyerGuns",                                               -- <list of prerequisite research items>
+		RequiredSubSystems =	"Research & CapShipProduction",                -- <list of prerequisite sub systems>
 		Cost = 			2500,
 		Time = 			200,
 		DisplayedName =		"$7718",
