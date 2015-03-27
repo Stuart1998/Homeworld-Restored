@@ -5,7 +5,7 @@ effects =
         animation1 =
         {
             name = "MissileTrail",				-- Don't change this or the bullet sprite won't render in-game
-            length = 1.206,							-- Change to be the lifetime of the missile, -1 and 0 cause the sprite to not render
+            length = 4.206,							-- Change to be the lifetime of the missile, -1 and 0 cause the sprite to not render
             loop = 0,							--
             parent = "",						--
             minimum = 0,						--
