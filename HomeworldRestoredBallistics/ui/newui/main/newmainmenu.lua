@@ -247,7 +247,7 @@ NewMainMenu = {
 				sizetype = "contain",
 				
 				Text = {	
-					text = "Homeworld Restored v 0.6.2.4",
+					text = "Homeworld Restored v 0.6.3.1",
 					font = "ButtonFont",
 					hAlign = "Right",
 					vAlign = "Top",

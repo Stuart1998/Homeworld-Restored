@@ -1,4 +1,4 @@
-StartWeaponConfig(NewWeaponType,"Gimble","Missile","hgn_peashooter","Normal",900,1200*1.1,0,0,0,0,1,1,0,1.2,0,0,0,0,0,0,0.1,"Normal",0,0,0);
-AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",10,10,"");
+StartWeaponConfig(NewWeaponType,"Gimble","Missile","hgn_peashooter","Normal",900,1400*1.1,0,0,0,0,1,1,0,1.2,0,0,0,0,0,0,0.1,"Normal",0,0,0);
+AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",11,12,"");
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAngles(NewWeaponType,15,0,0,0,0);

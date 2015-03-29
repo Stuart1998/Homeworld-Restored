@@ -41,7 +41,7 @@ effects =
             { "animtime", "0" },
             { "marker", "Weapon_KineticDriver_Position" },
             { "fx", "muzzle_flash_combo_plasma_kpr" },
-            { "sound", "WEAPON/FIGHTER/FIRE/weapon_fighter_plasma_lance_beam" },
+            { "sound", "WEAPON/FIGHTER/FIRE/hw1weapon_fighter_plasmabomb" },
             { "fx_nlips", "on" },
         },
         event2 =
@@ -50,7 +50,7 @@ effects =
             { "animtime", "0" },
             { "marker", "Weapon_FrontGun_Position" },
             { "fx", "muzzle_flash_combo_plasma_kpr" },
-            { "sound", "WEAPON/FIGHTER/FIRE/weapon_fighter_plasma_lance_beam" },
+            { "sound", "WEAPON/FIGHTER/FIRE/hw1weapon_fighter_plasmabomb" },
             { "fx_nlips", "on" },
         },
         event3 =
