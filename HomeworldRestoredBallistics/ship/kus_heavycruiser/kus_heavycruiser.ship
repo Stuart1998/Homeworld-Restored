@@ -4,6 +4,7 @@ NewShipType.sobDescription="$10039"
 NewShipType.maxhealth=200000 --was 90000
 NewShipType.regentime=9000
 NewShipType.minRegenTime=1800
+NewShipType.frontArmourDamage=0.9
 NewShipType.sideArmourDamage=1.2
 NewShipType.rearArmourDamage=1.7
 NewShipType.isTransferable=0
