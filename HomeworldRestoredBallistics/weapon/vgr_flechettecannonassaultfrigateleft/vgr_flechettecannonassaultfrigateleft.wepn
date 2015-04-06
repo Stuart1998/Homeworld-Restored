@@ -4,7 +4,7 @@
 --
 --  Copyright Relic Entertainment, Inc.  All rights reserved.
 --===========================================================================
-StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","vgr_flechettecannonassaultfrigate","Normal",2000,2500,0,0,0,0,1,1,1,2.5,0,0,1,0,60,60,0.1,"Normal",1,0,0);
+StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","vgr_flechettecannonassaultfrigate","Normal",2000,2000,0,0,0,0,1,1,1,2.5,0,0,1,0,60,60,0.1,"Normal",1,0,0);
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",95,95,"");
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAngles(NewWeaponType,0,-180,13,-10,60);

@@ -1,4 +1,4 @@
-StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","kus_hvcorvette_special","Special Attack",1050,1550*1.1,0,0,0,0,1,1,0,37,0,0,0,0,50,50,0.1,"Normal",0,0,0);
+StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","kus_hvcorvette_special","Special Attack",1050,2250,0,0,0,0,1,1,0,37,0,0,0,0,50,50,0.1,"Normal",0,0,0);
 AddWeaponResult(NewWeaponType,"Hit","SpawnWeaponFire","Target",0,0,"Kus_HvCorvette_SpecialBurst");
 AddWeaponResult(NewWeaponType,"Miss","SpawnWeaponFire","Target",0,0,"Kus_HvCorvette_SpecialBurst");
 setPenetration(NewWeaponType,5,1,

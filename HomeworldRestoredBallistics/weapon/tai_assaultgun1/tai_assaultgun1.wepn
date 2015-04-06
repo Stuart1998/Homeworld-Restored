@@ -1,4 +1,4 @@
-StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","tai_assaultgun","Normal",1500,3000,0,0,0,0,1,1,1,2.5*0.8,0,0,1,0,55,55,0.1,"Normal",1,0,0);
+StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","tai_assaultgun","Normal",1500,2000,0,0,0,0,1,1,1,2.5*0.8,0,0,1,0,55,55,0.1,"Normal",1,0,0);
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",72*0.92,72*0.92,"");
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAngles(NewWeaponType,0,-15,160,-10,60);

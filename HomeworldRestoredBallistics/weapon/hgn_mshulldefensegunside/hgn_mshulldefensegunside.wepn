@@ -4,7 +4,7 @@
 --
 --  Copyright Relic Entertainment, Inc.  All rights reserved.
 --===========================================================================
-StartWeaponConfig(NewWeaponType,"Gimble","Missile","hgn_mshulldefensegunside","Normal",2500,2200,0,0,0,0,1,1,0,2,0,0,1,0,0,0,0.1,"Normal",0,0,0);
+StartWeaponConfig(NewWeaponType,"Gimble","Missile","hgn_mshulldefensegunside","Normal",2500,1800,0,0,0,0,1,1,0,2,0,0,1,0,0,0,0.1,"Normal",0,0,0);
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",20,20,"");
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAngles(NewWeaponType,110,0,0,0,0);

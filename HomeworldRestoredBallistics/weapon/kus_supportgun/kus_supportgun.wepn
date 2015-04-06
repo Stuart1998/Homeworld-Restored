@@ -1,4 +1,4 @@
-StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","kus_supportgun","Normal",2000,3450,0,0,0,0,1,1,1,2.5*0.8,0,0,1,0,45,45,0.1,"Normal",1,0,0);
+StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","kus_supportgun","Normal",2000,1000,0,0,0,0,1,1,1,2.5*0.8,0,0,1,0,45,45,0.1,"Normal",1,0,0);
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",72*0.8,72*0.8,"");
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAccuracy(NewWeaponType,1,

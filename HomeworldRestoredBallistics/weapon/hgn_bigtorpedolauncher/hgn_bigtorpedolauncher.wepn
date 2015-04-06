@@ -4,7 +4,7 @@
 --
 --  Copyright Relic Entertainment, Inc.  All rights reserved.
 --===========================================================================
-StartWeaponConfig(NewWeaponType,"Fixed","Missile","Hgn_LongRangeTorpedo","Special Attack",120,4500,0,0,0,0,1,0,1,15,0,0,0,0,0,0,0.1,"Normal",0,0,0);
+StartWeaponConfig(NewWeaponType,"Fixed","Missile","Hgn_LongRangeTorpedo","Special Attack",120,3000,0,0,0,0,1,0,1,15,0,0,0,0,0,0,0.1,"Normal",0,0,0);
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",800,800,"");
 setPenetration(NewWeaponType,30,1,{PlanetKillerArmour=0});
 setAccuracy(NewWeaponType,1,{Fighter=0},{Corvette=0},{munition=0});

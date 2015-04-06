@@ -1,4 +1,4 @@
-StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","kus_drone","Normal",2000,2650,0,0,0,0,1,1,0,1,0,0,1,1,125,125,0.1,"Normal",0,0,0)
+StartWeaponConfig(NewWeaponType,"AnimatedTurret","Missile","kus_drone","Normal",2000,2500,0,0,0,0,1,1,0,1,0,0,1,1,125,125,0.1,"Normal",0,0,0)
 AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",40,40,"")
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAngles(NewWeaponType,0,-179,179,-89,89);
