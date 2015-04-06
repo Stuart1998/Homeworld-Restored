@@ -6,13 +6,14 @@
 --
 UC_Family("Fighter", 14);
 UC_FamilyOverride("Vaygr","Fighter", 18);
-UC_Family("Fighter_hw1", 70);
-UC_FamilyOverride("Kushan","Fighter", 70);
+UC_Family("Fighter_hw1", 80);
+UC_FamilyOverride("Kushan","Fighter", 80);
 
 --
 UC_Family("Corvette", 12);
-UC_Family("Corvette_hw1", 42);
-UC_FamilyOverride("Kushan","Corvette", 42);
+UC_Family("Corvette_hw1", 50);
+UC_FamilyOverride("Kushan","Corvette", 50);
+UC_ShipType("MinelayerCorvette",10);
 UC_ShipType("SalvageCorvette",14);
 
 --
