@@ -1,11 +1,11 @@
-Title: Homeworld Restored v0.6.4.1
+Title: Homeworld Restored v0.6.4.5
 
 
 Tags: homeworld ship space restored remastered sound fixed paper homeworldrm
 
 GameType: HomeworldRM
 
-BigFilename: HomeworldRestoredv0641.big
+BigFilename: HomeworldRestoredv0645.big
 
 WorkshopID: 402223886
 

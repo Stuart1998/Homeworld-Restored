@@ -141,6 +141,8 @@ addAbility(NewShipType,"HyperSpaceCommand",1,1,500,1000,0,3);
 addAbility(NewShipType,"CanAttack",1,1,0,0,0.35,1,"Fighter, Corvette, Capturer, Frigate, SmallCapitalShip, BigCapitalShip, Utility, Mothership","Frontal");
 addAbility(NewShipType,"CanBuildShips",1,"Fighter_Tur, Corvette_Tur, Frigate_Tur","Utility, Fighter, Corvette, Frigate, Capital");
 addAbility(NewShipType,"CanBeRepaired");
+addAbility(NewShipType,"CanBeCaptured",160,0.1,"CapCap");
+addAbility(NewShipType,"CanBeSalvageCaptured",0,1,0,0,1,"SalCap");
 addAbility(NewShipType,"RetireAbility",1,0);
 LoadModel(NewShipType,1);
 StartShipWeaponConfig(NewShipType,"Tur_MothershipGun","Weapon_Gun0","Weapon_Gun0");

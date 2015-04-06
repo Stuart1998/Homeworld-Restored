@@ -4,6 +4,7 @@ UC_Family("Fighter_hw1", 40);
 --
 UC_Family("Corvette", 8);
 UC_Family("Corvette_hw1", 24);
+UC_ShipType("MinelayerCorvette",6);
 UC_ShipType("SalvageCorvette",10);
 --
 UC_Family("Frigate", 12);

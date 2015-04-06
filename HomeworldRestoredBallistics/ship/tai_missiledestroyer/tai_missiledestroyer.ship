@@ -141,15 +141,9 @@ addAbility(NewShipType,"HyperSpaceCommand",1,2.2,400,1200,0,4);
 
 if (getGameRubric(NewShipType) == GR_SINGLEPLAYER_CAMPAIGN) then
     addAbility(NewShipType,"CanAttack",1,1,0,0,0.35,1.5,"Capturer, Corvette, Fighter, Frigate, SmallCapitalShip, BigCapitalShip, Mothership, Utility","Frontal",
-    {Fighter="MoveToTargetAndShoot"},
-    {Corvette="MoveToTargetAndShoot"},
-    {Munition="MoveToTargetAndShoot"},
     {SubSystem="FrontalVsSubSystem"});
 else
     addAbility(NewShipType,"CanAttack",1,1,0,0,0.35,1.5,"Capturer, Frigate, SmallCapitalShip, BigCapitalShip, Mothership, Utility, Corvette, Fighter","Frontal",
-    {Fighter="MoveToTargetAndShoot"},
-    {Corvette="MoveToTargetAndShoot"},
-    {Munition="MoveToTargetAndShoot"},
     {SubSystem="FrontalVsSubSystem"});
 end
 
