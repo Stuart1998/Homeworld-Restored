@@ -138,10 +138,7 @@ addAbility(NewShipType,"CanAttack",1,3,1,0,0.35,1,"Fighter, Corvette, Frigate, C
 {SubSystem="frontalcircle"});
 addAbility(NewShipType,"GuardCommand",1,3000,500);
 addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
-addAbility(NewShipType,"RepairCommand",1,750,7,
-{SuperCap=14},
-{Battlecruiser=10},
-{Flagship=14});
+addAbility(NewShipType,"RepairCommand",1,1150,1,1,"CircleStrafeRepair");
 addAbility(NewShipType,"RetireAbility",1,0);
 addCustomCode(NewShipType,"data:Ship/Tai_RepairCorvette/Tai_RepairCorvette.lua","","Create_Tai_RepairCorvette","Update_Tai_RepairCorvette","Destroy_Tai_RepairCorvette","Tai_RepairCorvette",15)
 LoadModel(NewShipType,1);
