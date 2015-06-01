@@ -100,7 +100,7 @@ ShipController = {
 }
 
 Ship = {
-	battleTimeOutTime				= 10.0,				-- Don't tweak this if you don't know what you are doing. takes 10 seconds to say that you're not in a battle anymore, while you are in battle you can't be cloaked, you are also visible always to the player you are firing at
+	battleTimeOutTime				= 1.0,				-- Don't tweak this if you don't know what you are doing. takes 10 seconds to say that you're not in a battle anymore, while you are in battle you can't be cloaked, you are also visible always to the player you are firing at
 	sensorsHiddenTimeOutTime		= 1.0,				-- Don't tweak this if you don't know what you are doing. timeout for sensors detection to prevent jittering
 	radiationTimeOutTime				= 1.0,			-- Don't tweak this if you don't know what you are doing. timeout for radiation to prevent jittering
 	chargedDustCloudTimeOutTime		= 1.0,
@@ -149,7 +149,7 @@ AdvRigidBody = {
 
 ResearchData= {
 	-- Power to which the number of research sub systems should be raised.
-	ResearchShipExponent = 0.5,
+	ResearchShipExponent = 0.85,
 }
 
 BuildData = {
@@ -179,7 +179,7 @@ OrderData = {
 
 WeaponFire = {
 	-- factor that the damage gets multiplied with for friendly ships. Should be between 0 and 1. So 0 means there is no friendly fire, 1 means there is full friendly fire
-	FriendlyFireRatio			= 0.1,
+	FriendlyFireRatio			= 1.0,
 }
 
 HyperSpace = {
@@ -199,9 +199,9 @@ Capture = {
 	-- at zero health the progress per turn is multiplied by this, scales 1.0 at full health to this
     zeroHealthMultiplier		= 8.0,
     -- for every ship after 1 and up to 'highShips' add this to a multiplier for ships capturing the target
-    lowShipsPerShipMultiplier	= 0.1,
+    lowShipsPerShipMultiplier	= 0.15,
     -- for every ship after 'highShips' add this to a multiplier for ships capturing the target
-    highShipsPerShipMultiplier	= 0.05,
+    highShipsPerShipMultiplier	= 0.075,
     -- modifier changes after this many ships
     highShips					= 8,
     -- modify base progress by no less than this
@@ -216,9 +216,9 @@ Capture = {
 
 RepairInfo = {
 	-- when a repair ship is latched to a target it will wait this many seconds after the repairs are finished before unlatching
-	timeToWaitAfterLastDamageBeforeUnlatching				= 2.0,
+	timeToWaitAfterLastDamageBeforeUnlatching				= 2.5,
 	-- when ships are trying to repair the target is slowed down to this amount of it's max speed
-	slowDownFactor                                          = 0.65,
+	slowDownFactor                                          = 0.9,
 }
 
 EngineTrailInfo = {
@@ -333,9 +333,9 @@ UnitCapsInfo = {
 
 AutoFormationInfo = {
 	-- Padding between squadrons in all directions
-	paddingX	= 190,
-	paddingY	= 190,
-	paddingZ	= 190,
+	paddingX	= 220,
+	paddingY	= 220,
+	paddingZ	= 220,
 }
 
 LatchInfo = {
@@ -361,13 +361,13 @@ StrikeGroupInfo = {
 	maxSpeedFraction	= 0.98,
 	-- if all strike group ships are closer than this then the core ship will fly at
 	-- m_maxSpeedFraction of its speed
-	maxSpeedWhenCloserThan	= 100,
+	maxSpeedWhenCloserThan	= 200,
 	-- if any strike group ships are this far away from their station then the core
 	-- ship will fly at m_minSpeedFraction of its speed
-	minSpeedWhenFurtherThan	= 400,
+	minSpeedWhenFurtherThan	= 700,
 	-- multiply this by the sum of the radii of two elements in a SG to get the space
 	-- in metres between neighbouring elements
-	strikeGroupSpacing	= 1.4,
+	strikeGroupSpacing	= 1.8,
 	-- if the destination is less than this many degrees from behind the strike group
 	-- lead then the strike group formation will mirror, prevents long turn around
 	-- times
@@ -397,14 +397,28 @@ MineLayingInfo = {
 	-- get the table index, higher tables have more mine positions so increasing this number
 	-- gives mine spheres with more mines
 	distanceMultiplierForSphere = 0.001,
-    mineSpacing = 1000.0,
+    mineSpacing = 750.0,
 }
 
 CollisionInfo = {
 	-- multiply this by each side of the collisions health to see what the other side takes as damage
 	kamikazeDamageMultiplier		= 7,
 	-- multiply this by each side of the collisions health to see what the other side takes as damage
-	normalCollisionDamageMultiplier = 0
+	normalCollisionDamageMultiplier = 0,
+	kamikazeArmourFamilyDamageMultiplier = {
+		{
+			"ResArmour",
+			1.0,
+		},
+		{
+			"MediumArmour",
+			1.0,
+		},
+		{
+			"HeavyArmour",
+			1.0,
+		},
+	},
 }
 
 FXInfo = {
