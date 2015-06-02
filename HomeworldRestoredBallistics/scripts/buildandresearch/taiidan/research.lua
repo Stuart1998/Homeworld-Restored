@@ -448,6 +448,20 @@ research =
 		UpgradeValue =		1.08,
 	},	
 	--Special		
+	{
+		Name = "HyperspaceDamageReductionUpgradetai", 
+		RequiredResearch = "", 
+		RequiredSubSystems = "", 
+		Cost = 0, 
+		Time = 0, 
+		DisplayedName = "", 
+		DisplayPriority = 0, 
+		Description = "", 
+		UpgradeType = Modifier, 
+		TargetType = AllShips, 
+		UpgradeName = "HyperSpaceAbortDamage", 
+		UpgradeValue = 0.4, 
+	},					
 	{ 
 		Name =			"MissileDestroyerVolley",
 		RequiredResearch =	"",

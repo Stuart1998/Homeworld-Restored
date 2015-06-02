@@ -1273,6 +1273,20 @@ research =
 		Icon = 				Icon_Tech,
 		ShortDisplayedName = 		"$7281",
 	},
+	{
+		Name = "HyperspaceDamageReductionUpgradehgn", 
+		RequiredResearch = "", 
+		RequiredSubSystems = "", 
+		Cost = 0, 
+		Time = 0, 
+		DisplayedName = "", 
+		DisplayPriority = 0, 
+		Description = "", 
+		UpgradeType = Modifier, 
+		TargetType = AllShips, 
+		UpgradeName = "HyperSpaceAbortDamage", 
+		UpgradeValue = 0.4, 
+	},
 
 --	{
 --		Name =				"HyperspaceRecoveryTimeUpgrade1",

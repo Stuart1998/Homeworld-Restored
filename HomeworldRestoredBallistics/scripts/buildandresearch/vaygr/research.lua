@@ -736,6 +736,20 @@ research =
 		Icon = Icon_Health,
 		ShortDisplayedName = "$7352",
 	},
+	{
+		Name = "HyperspaceDamageReductionUpgradevay", 
+		RequiredResearch = "", 
+		RequiredSubSystems = "", 
+		Cost = 0, 
+		Time = 0, 
+		DisplayedName = "", 
+		DisplayPriority = 0, 
+		Description = "", 
+		UpgradeType = Modifier, 
+		TargetType = AllShips, 
+		UpgradeName = "HyperSpaceAbortDamage", 
+		UpgradeValue = 0.4, 
+	},
 
 	--======================================================================
 	-- SINGLE PLAYER GAME SPECIFIC TECH
