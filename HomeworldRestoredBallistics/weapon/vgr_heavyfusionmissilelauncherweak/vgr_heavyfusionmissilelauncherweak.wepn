@@ -5,7 +5,7 @@
 --  Copyright Relic Entertainment, Inc.  All rights reserved.
 --===========================================================================
 StartWeaponConfig(NewWeaponType,"Fixed","Missile","Vgr_HeavyMissile","Normal",40,2500,0,0,0,0,1,0,0,20,0,0,1,1,0,0,0.1,"Normal",0,0,0);
-AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",1750,1750,"");
+AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",2000,2000,"");
 setPenetration(NewWeaponType,5,1,{PlanetKillerArmour=0});
 setAccuracy(NewWeaponType,1,{Fighter=0},{Corvette=0},{munition=0});
 setAngles(NewWeaponType,180,0,0,0,0);
