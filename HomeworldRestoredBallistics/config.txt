@@ -1,17 +1,23 @@
-Title: Homeworld Restored v0.6.6
+Title: Homeworld Restored v0.7
 
 
 Tags: homeworld ship space restored remastered sound fixed paper homeworldrm
 
 GameType: HomeworldRM
 
-BigFilename: HomeworldRestoredv066.big
+ModType: MOD
+
+BigFilename: HomeworldRestoredv07.big
 
 WorkshopID: 402223886
 
 Description:
 While Homeworld Remastered provides superb graphical updates to Homeworld (both one and two) the gameplay direction has been unmodified from the sub-par gameplay that can be found in Homeworld 2 and the sound has been absolutely murdered. In an effort to fix these issues, I have created Homeworld Restored. This mod reduces damage dealt by all super-capital ships and some frigates to return the gameplay to the brilliance that was homeworld 1. Destroyer and especially cruiser range is no longer insane and frigates should be much more useful against larger vessels. Corvettes and assault frigates have had their behavior fixed to bring all of their guns to bear and sound effects have been restored to their classic incarnations. The Turanics and Kadeshi are now more challenging and the Progenitor vessels are now more powerful in relation to your own.
+
 Feedback would be appreciated.
+
 The ballistic system was developed by Koopak and Mechwarrior001 and can be found in their mod "Bulletmod" on the workshop.
+
 Parts of this mod were derrived from The Doctor's Remastered Rebalance, Giggily's Classic Restored (Which was itself based partially upon the Homeworld Remastered Mod for HW2), and Gunner's Remastered Sound Fix, all of which can be found on the workshop.
+
 Have fun!
