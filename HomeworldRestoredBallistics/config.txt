@@ -1,4 +1,4 @@
-Title: Homeworld Restored v0.7
+Title: Homeworld Restored v0.7.1
 
 
 Tags: homeworld ship space restored remastered sound fixed paper homeworldrm
@@ -7,7 +7,7 @@ GameType: HomeworldRM
 
 ModType: MOD
 
-BigFilename: HomeworldRestoredv07.big
+BigFilename: HomeworldRestoredv071.big
 
 WorkshopID: 402223886
 
