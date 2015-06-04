@@ -72,7 +72,7 @@ function Do_Kus_GravWellGenerator(CustomGroup, playerIndex, shipID)
   end
   SobGroup_TakeDamage(CustomGroup, 0.0065)
   FX_StartEvent(CustomGroup, "PowerUp")
-  local distance = 6750
+  local distance = 2000
   --local modifier = 0.8
   --for k = 1,6,1 do
 		if SobGroup_FillProximitySobGroup ("gravitywellgenerators_temp", "gravitywellgenerators_ships"..shipID, CustomGroup, distance) == 1 then
@@ -144,7 +144,7 @@ function Update_Kus_GravWellGenerator(CustomGroup, playerIndex, shipID)
 					SobGroup_FillShipsByType("gravitywellgenerators_temp", "Player_Ships"..playerIndex_ai, GravityWellGeneratorShipList[i])	
 					SobGroup_SobGroupAdd("gravitywellgenerators_temp_ai", "gravitywellgenerators_temp")	
 				end		
-				local distance = 6750
+				local distance = 2000
 				if SobGroup_FillProximitySobGroup ("gravitywellgenerators_temp", "gravitywellgenerators_temp_ai", CustomGroup, distance) == 1 then									
 					if AreAllied(playerIndex, playerIndex_ai) == 1 then
 						alliedships = alliedships + SobGroup_Count("gravitywellgenerators_temp")

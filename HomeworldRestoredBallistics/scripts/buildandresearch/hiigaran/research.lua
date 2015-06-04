@@ -172,9 +172,9 @@ research =
 	{
 		Name =					"RepairAbility",
 		RequiredResearch =		"",
-		RequiredSubSystems =	"Research | AdvancedResearch",
-		Cost = 					750,
-		Time = 					40,
+		RequiredSubSystems =	"",
+		Cost = 					0,
+		Time = 					0,
 		DisplayedName =			"$7511",
 		DisplayPriority =		26,
 		Description =			"$7512",
