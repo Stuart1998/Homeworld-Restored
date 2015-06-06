@@ -190,6 +190,7 @@ loadShipPatchList(NewShipType,"data:sound/sfx/ship/"
 loadLatchPointList(NewShipType,"SalCap","SalvagePoint1","SalvagePoint2","SalvagePoint3","SalvagePoint4","SalvagePoint5","SalvagePoint6");	
 loadLatchPointList(NewShipType,"CapCap","CapturePoint1","CapturePoint2","CapturePoint3","CapturePoint4");
 loadLatchPointList(NewShipType,"RepCap","RepairPoint0","RepairPoint1","RepairPoint2","RepairPoint3","RepairPoint4");
+setConcurrentBuildLimit(NewShipType,0,4);
 NewShipType.minFalloffDamageDist=0
 NewShipType.maxFalloffDamageDist=950
 NewShipType.maxFalloffDamage=950
