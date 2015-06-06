@@ -199,7 +199,7 @@ research =
 --Super-Capital Ship Techs
 	{
 		Name =			"SuperCapitalShipDrive",
-		RequiredResearch =	"CapitalShipChassis & IonCannons",
+		RequiredResearch =	"CapitalShipChassis",
 		RequiredSubSystems =	"Research",
 		Cost = 			1300,
 		Time = 			175,
@@ -238,7 +238,7 @@ research =
 	},
 	{
 		Name =			"HeavyGuns",
-		RequiredResearch =	"SuperHeavyChassis",
+		RequiredResearch =	"SuperHeavyChassis & IonCannons",
 		RequiredSubSystems =	"Research",
 		Cost = 			3500,
 		Time = 			350,

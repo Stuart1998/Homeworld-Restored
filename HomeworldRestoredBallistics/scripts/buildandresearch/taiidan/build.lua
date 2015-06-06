@@ -144,7 +144,7 @@ build =
 	{
 		Type =					Ship,
 		ThingToBuild =			"Tai_Destroyer",
-		RequiredResearch =		"SuperCapitalShipDrive",
+		RequiredResearch =		"SuperCapitalShipDrive & IonCannons",
 		RequiredShipSubSystems =	"",
 		DisplayPriority =		70,
 		DisplayedName =			"$11034",

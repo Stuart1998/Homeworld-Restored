@@ -149,7 +149,7 @@ build =
 	{
 		Type =					Ship,
 		ThingToBuild =			"Kus_Destroyer",
-		RequiredResearch =		"SuperCapitalShipDrive",
+		RequiredResearch =		"SuperCapitalShipDrive & IonCannons",
 		RequiredShipSubSystems =	"",
 		DisplayPriority =		70,
 		DisplayedName =			"$11034",
