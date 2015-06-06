@@ -1,8 +1,8 @@
-UC_Family("Fighter", 25);
-UC_FamilyOverride("Vaygr","Fighter", 26);
+UC_Family("Fighter", 110);
+UC_FamilyOverride("Vaygr","Fighter", 140);
 UC_Family("Fighter_hw1", 125);
 --
-UC_Family("Corvette", 25);
+UC_Family("Corvette", 75);
 UC_Family("Corvette_hw1", 75);
 UC_ShipType("MinelayerCorvette",14);
 UC_ShipType("SalvageCorvette",18);

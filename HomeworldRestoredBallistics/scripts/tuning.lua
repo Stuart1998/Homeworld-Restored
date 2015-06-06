@@ -16,7 +16,7 @@ Resource = {
 	initialExtraResourcesDistance = 4000,
 	
 	-- Maximum distance to look for resources
-	MaxDistancetoNewRU = 8000,
+	MaxDistancetoNewRU = 12000,
 	
 	-- Minimum fraction of capacity needed before a resourcer will consider docking instead of going to the next ru (0-1).
 	earlyDockingMinCapacity = 0.5,
